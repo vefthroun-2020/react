@@ -1,8 +1,9 @@
 const MyButton  = function(props){
     return(
         <div>
+            <br></br>
         {props.label}
-        <button>{props.text}</button>
+            <button onClick={props.clickFunction}>{props.text}</button>
         </div>
     )
 }
